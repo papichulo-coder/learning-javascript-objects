@@ -1,0 +1,17 @@
+<script>
+    var House= function(place,adress){
+    this.place=place;
+    this.adress=adress;
+    this.priceofland=function(plot,unitofsqm){
+       console.log(plot*unitofsqm);
+    };
+    }
+    var House2=new House("LAGOS","peace estate");
+    var House3=new House("abuja","nyanya");
+    var House4=new House("calabar","marian");
+    var House5=new House("phc","osapa");
+
+    console.log(House3.place)
+
+House3.priceofland(300,10);
+</script>
